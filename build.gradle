@@ -15,18 +15,13 @@ apply plugin: 'maven-publish'
 
 repositories {
     maven {
-        url = "http://dvs1.progwml6.com/files/maven"
-    }
-    maven {
-        // location of a maven mirror for JEI files, as a fallback
-        name = "ModMaven"
-        url = "http://modmaven.k-4u.nl"
+        name "JEI"
+        url "https://dvs1.progwml6.com/files/maven"
     }
 
     maven {
-        //fallback for almost everything, this is CurseForge :P
-        name = "CurseForge"
-        url = "https://minecraft.curseforge.com/api/maven/"
+        name "TOP"
+        url "https://maven.tterrag.com/"
     }
 
     maven {
@@ -103,9 +98,8 @@ dependencies {
     compileOnly fg.deobf("mezz.jei:jei-${jei_version}:api")
     runtimeOnly fg.deobf("mezz.jei:jei-${jei_version}")
     runtimeOnly fg.deobf("mcjty.theoneprobe:TheOneProbe-1.16:${top_version}")
-    compileOnly fg.deobf("com.github.lazyMods:Baubles:{$baubles_version}:api")
-    runtimeOnly fg.deobf("com.github.lazyMods:Baubles:{$baubles_version}")
-    runtimeOnly fg.deobf("slimeknights.mantle:Mantle:${mantle_version}")
+    compileOnly fg.deobf("com.github.lazyMods:Baubles:${baubles_version}:api")
+    runtimeOnly fg.deobf("com.github.lazyMods:Baubles:${baubles_version}")
 
 }
 

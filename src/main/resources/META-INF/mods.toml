@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT License"
+issueTrackerURL="https://github.com/OneLousyDev/SimpleCanisters/issues"
+[[mods]]
+modId="simplecanisters"
+version="1.16-1.0.0"
+displayName="Simple Canisters"
+credits="Thanks to the Tinkers Construct and Baubley Heart Canisters team for the original mod"
+authors="OneLousyDev"
+description='''Bringing Heart Canisters to 1.16 and beyond!'''
+[[dependencies.simplecanisters]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.simplecanisters]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.simplecanisters]]
+    modId="baubles"
+    mandatory=true
+    versionRange="[1.8.5,)"
+    ordering="NONE"
+    side="BOTH"
