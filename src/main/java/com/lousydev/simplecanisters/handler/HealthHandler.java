@@ -14,6 +14,7 @@ import net.minecraft.entity.ai.attributes.ModifiableAttributeInstance;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.MathHelper;
+import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -36,13 +37,13 @@ public class HealthHandler
 
             if(player.getCapability(BaublesCapabilities.BAUBLES).isPresent())
             {
-                IBaublesItemHandler baublesInventory = (IBaublesItemHandler) player.getCapability(BaublesCapabilities.BAUBLES);
+                LazyOptional<IBaublesItemHandler> baublesInventory = player.getCapability(BaublesCapabilities.BAUBLES);
                 float diff = player.getMaxHealth() - player.getHealth();
                 int[] hearts = new int[HeartType.values().length];
 
-                for(int slot = 0; slot < baublesInventory.getSlots(); slot++)
+                for(int slot = 0; slot < baublesInventory.resolve().get().getSlots(); slot++)
                 {
-                    ItemStack slotStack = baublesInventory.getStackInSlot(slot);
+                    ItemStack slotStack = baublesInventory.resolve().get().getStackInSlot(slot);
                     if(!slotStack.isEmpty())
                     {
                         if(slotStack.getItem() instanceof BaseHeartCanister)
