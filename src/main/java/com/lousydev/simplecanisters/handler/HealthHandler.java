@@ -1,7 +1,5 @@
 package com.lousydev.simplecanisters.handler;
 
-
-
 import com.google.common.base.Preconditions;
 import com.lazy.baubles.api.cap.BaublesCapabilities;
 import com.lazy.baubles.api.cap.IBaublesItemHandler;
