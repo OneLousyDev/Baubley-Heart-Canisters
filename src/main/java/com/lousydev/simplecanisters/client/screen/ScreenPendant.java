@@ -47,7 +47,6 @@ public class ScreenPendant extends ContainerScreen<ContainerPendant>
     @Override
     protected void drawGuiContainerForegroundLayer(MatrixStack stack, int mouseX, int mouseY)
     {
-        //this.fontRenderer.drawString(I18n.format("container.bhc.heart_pendant"), 3, 3, 4210752);
         super.drawGuiContainerForegroundLayer(stack, mouseX, mouseY);
     }
 }

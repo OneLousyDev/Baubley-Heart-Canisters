@@ -6,8 +6,8 @@ issueTrackerURL="https://github.com/OneLousyDev/SimpleCanisters/issues"
 modId="simplecanisters"
 version="1.16-1.0.0"
 displayName="Simple Canisters"
-credits="Thanks to the Tinkers Construct and Baubley Heart Canisters team for the original mod"
-authors="OneLousyDev"
+credits="Thanks to the Tinkers Construct and the Baubley Heart Canisters team for the original mod"
+authors="OneLousyGamer"
 description='''Bringing Heart Canisters to 1.16 and beyond!'''
 [[dependencies.simplecanisters]]
     modId="forge"

@@ -1,0 +1,19 @@
+{
+  "item.simplecanisters.red_heart" : "Red Heart",
+  "item.simplecanisters.red_heart_canister" : "Red Heart Canister",
+  "item.simplecanisters.orange_heart" : "Orange Heart",
+  "item.simplecanisters.orange_heart_canister" : "Orange Heart Canister",
+  "item.simplecanisters.green_heart" : "Green Heart",
+  "item.simplecanisters.green_heart_canister" : "Green Heart Canister",
+  "item.simplecanisters.blue_heart" : "Blue Heart",
+  "item.simplecanisters.blue_heart_canister" : "Blue Heart Canister",
+  "item.simplecanisters.canister" : "Canister",
+  "item.simplecanisters.heart_amulet" : "Heart Amulet",
+  "item.simplecanisters.relic_apple" : "Relic Apple",
+  "item.simplecanisters.wither_bone" : "Wither Bone",
+  "itemGroup.simplecanisters" : "Simple Canisters",
+  "screen.simplecanisters.amulet.name" : "Heart Amulet"
+}
+
+
+
