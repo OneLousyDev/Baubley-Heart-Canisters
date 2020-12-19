@@ -20,7 +20,7 @@ public class ContainerRegistry
     public static final DeferredRegister<ContainerType<?>> CONTAINERS = DeferredRegister.create(ForgeRegistries.CONTAINERS, Reference.MODID);
 
     public static final RegistryObject<ContainerType<ContainerPendant>> PENDANT_CONTAINER = CONTAINERS.register("pendant", () -> IForgeContainerType.create((windowId, inv, data) -> {
-        BlockPos pos = data.readBlockPos();
+        BlockPos pos = inv.player.getPosition();
         World world = inv.player.getEntityWorld();
         ItemStack pendant = new ItemStack(ItemRegistry.HEART_AMULET.get());
         return new ContainerPendant(windowId, world, pos, inv, inv.player, pendant);

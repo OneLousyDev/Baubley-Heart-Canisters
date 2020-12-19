@@ -11,18 +11,18 @@ import com.lousydev.simplecanisters.util.HeartType;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.INamedContainerProvider;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.ActionResultType;
-import net.minecraft.util.Hand;
+import net.minecraft.util.*;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 import net.minecraftforge.common.ForgeHooks;
 import net.minecraftforge.common.util.Constants;
+import net.minecraftforge.fml.network.NetworkHooks;
 
 import javax.annotation.Nullable;
 
@@ -65,7 +65,9 @@ public class ItemHeartAmulet extends BaseItem implements IBauble
 
             if(!worldIn.isRemote)
             {
-                playerIn.openContainer(provider);
+                NetworkHooks.openGui(((ServerPlayerEntity) playerIn), provider);
+
+                worldIn.playSound(playerIn, playerIn.getPosition(), SoundEvents.ITEM_ARMOR_EQUIP_IRON, SoundCategory.PLAYERS, 1F, 1F);
             }
 
             return new ActionResult<>(ActionResultType.SUCCESS, stack);
