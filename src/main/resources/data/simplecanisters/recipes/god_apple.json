@@ -1,10 +1,9 @@
 {
-  "type":"forge:ore_shaped",
+  "type":"minecraft:crafting_shaped",
   "pattern": ["GGG", "GAG", "GGG" ],
   "key":{
     "G": {
-      "type":"forge:ore_dict",
-      "ore":"blockGold"
+      "key": "forge:blocks/gold"
     },
     "A":{
       "item": "minecraft:apple"
@@ -13,6 +12,5 @@
   "result":{
     "item": "minecraft:golden_apple",
     "data": 1
-
   }
 }

@@ -1,20 +1,20 @@
 {
-  "type":"forge:ore_shapeless",
+  "type":"minecraft:crafting_shapeless",
   "ingredients":[
     {
-      "item":"simplecanisters:orange_heart_canister"
+      "item": "simplecanisters:orange_heart_canister"
     },
     {
-      "item":"simplecanisters:green_heart"
+      "item": "simplecanisters:green_heart"
     },
     {
-      "item":"minecraft:nether_star"
+      "item": "minecraft:nether_star"
     },
     {
-      "item":"minecraft:shulker_shell"
+      "item": "minecraft:shulker_shell"
     }
   ],
   "result":{
-    "item":"simplecanisters:green_heart_canister"
+    "item": "simplecanisters:green_heart_canister"
   }
 }

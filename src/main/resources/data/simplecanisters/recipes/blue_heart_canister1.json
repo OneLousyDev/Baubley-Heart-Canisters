@@ -1,11 +1,11 @@
 {
-  "type":"forge:ore_shapeless",
+  "type":"minecraft:crating_shapeless",
   "ingredients":[
     {
       "item": "simplecanisters:blue_heart_canister"
     }
   ],
   "result":{
-    "item":"simplecanisters:blue_heart_canister"
+    "item" :"simplecanisters:blue_heart_canister"
   }
 }

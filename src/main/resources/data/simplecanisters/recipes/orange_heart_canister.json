@@ -1,19 +1,19 @@
 {
-  "type": "forge:ore_shapeless",
+  "type": "minecraft:crafting_shapeless",
   "ingredients":[
     {
-      "item":"simplecanisters:red_heart_canister"
+      "item": "simplecanisters:red_heart_canister"
     },
     {
-      "item":"minecraft:golden_apple",
-      "data":1
+      "item": "minecraft:golden_apple",
+      "data": 1
     },
     {
-      "item":"simplecanisters:orange_heart"
+      "item": "simplecanisters:orange_heart"
     }
 
   ],
   "result":{
-    "item":"simplecanisters:orange_heart_canister"
+    "item": "simplecanisters:orange_heart_canister"
   }
 }

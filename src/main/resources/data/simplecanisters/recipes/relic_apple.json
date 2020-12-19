@@ -1,21 +1,19 @@
 {
-  "type":"forge:ore_shaped",
+  "type":"minecraft:crafting_shaped",
   "pattern":[" D ", "EAE", " D "],
   "key":{
     "D":{
-      "type":"forge:ore_dict",
-      "ore":"gemDiamond"
+      "tag": "forge:gems/diamond"
     },
     "E":{
-      "type":"forge:ore_dict",
-      "ore":"gemEmerald"
+      "tag": "forge:gems/emerald"
     },
     "A":{
-      "item":"minecraft:apple"
+      "item": "minecraft:apple"
     }
 
   },
   "result":{
-    "item":"simplecanisters:relic_apple"
+    "item": "simplecanisters:relic_apple"
   }
 }

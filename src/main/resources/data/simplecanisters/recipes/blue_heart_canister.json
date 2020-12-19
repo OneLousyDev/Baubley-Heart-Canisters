@@ -1,21 +1,20 @@
 {
-  "type":"forge:ore_shapeless",
+  "type":"minecraft:crafting_shapeless",
   "ingredients":[
     {
-      "item":"simplecanisters:green_heart_canister"
+      "item": "simplecanisters:green_heart_canister"
     },
     {
-      "item":"minecraft:totem_of_undying"
+      "item": "minecraft:totem_of_undying"
     },
     {
-      "item":"simplecanisters:blue_heart"
+      "item": "simplecanisters:blue_heart"
     },
     {
-      "type":"forge:ore_dict",
-      "ore":"gemEmerald"
+      "tag": "forge:gems/emerald"
     }
   ],
   "result":{
-    "item":"simplecanisters:blue_heart_canister"
+    "item": "simplecanisters:blue_heart_canister"
   }
 }
