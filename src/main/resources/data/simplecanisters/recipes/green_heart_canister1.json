@@ -1,0 +1,11 @@
+{
+  "type":"forge:ore_shapeless",
+  "ingredients":[
+    {
+      "item": "simplecanisters:green_heart_canister"
+    }
+  ],
+  "result":{
+    "item":"simplecanisters:green_heart_canister"
+  }
+}

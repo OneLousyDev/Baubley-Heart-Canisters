@@ -1,0 +1,29 @@
+{
+  "type":"forge:ore_shaped",
+  "pattern":["SRS","OXG"," B "],
+  "key":{
+    "S":{
+      "type":"forge:ore_dict",
+      "ore":"string"
+    },
+    "R":{
+      "item":"simplecanisters:red_heart_canister"
+},
+    "O":{
+      "item":"simplecanisters:orange_heart_canister"
+    },
+    "X":{
+      "type":"forge:ore_dict",
+      "ore":"blockGlass"
+    },
+    "G":{
+      "item":"simplecanisters:green_heart_canister"
+},
+    "B":{
+      "item":"simplecanisters:blue_heart_canister"
+    }
+  },
+  "result":{
+    "item":"simplecanisters:heart_amulet"
+  }
+}

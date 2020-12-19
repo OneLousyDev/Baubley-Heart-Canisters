@@ -1,0 +1,21 @@
+{
+  "type":"forge:ore_shapeless",
+  "ingredients":[
+    {
+      "item":"simplecanisters:green_heart_canister"
+    },
+    {
+      "item":"minecraft:totem_of_undying"
+    },
+    {
+      "item":"simplecanisters:blue_heart"
+    },
+    {
+      "type":"forge:ore_dict",
+      "ore":"gemEmerald"
+    }
+  ],
+  "result":{
+    "item":"simplecanisters:blue_heart_canister"
+  }
+}

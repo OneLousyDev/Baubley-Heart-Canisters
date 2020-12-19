@@ -1,0 +1,20 @@
+{
+  "type":"forge:ore_shapeless",
+  "ingredients":[
+    {
+      "item":"simplecanisters:red_heart"
+    },
+    {
+      "item": "simplecanisters:wither_bone"
+    },
+    {
+      "item":"simplecanisters:relic_apple"
+    },
+    {
+      "item":"simplecanisters:canister"
+    }
+  ],
+  "result":{
+    "item":"simplecanisters:red_heart_canister"
+  }
+}
