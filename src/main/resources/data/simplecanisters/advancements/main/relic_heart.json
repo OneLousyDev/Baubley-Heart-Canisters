@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon":{
+      "item":"simplecanisters:relic_apple"
+    },
+    "title":{
+      "translate":"advancements.simplecanisters.relic_apple"
+    },
+    "description":{
+      "translate": "advancements.simplecanisters.relic_apple.description"
+    }
+  },
+  "parent": "simplecanisters:main/root",
+  "criteria":{
+    "relic_apple_eaten":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item": "simplecanisters:relic_apple"
+          }
+        ]
+      }
+    }
+  }
+}

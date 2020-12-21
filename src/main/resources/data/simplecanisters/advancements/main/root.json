@@ -1,0 +1,28 @@
+{
+  "display":{
+    "icon":{
+      "item": "simplecanisters:red_heart_canister"
+    },
+    "title":{
+      "translate": "itemGroup.simplecanisters"
+    },
+    "description":{
+      "translate":"advancements.simplecanisters.red_heart.description"
+    },
+    "background": "simplecanisters:textures/gui/advancements.png",
+    "show_toast": true,
+    "announce_to_chat":true
+  },
+  "criteria":{
+    "red_heart_in_inventory":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item": "simplecanisters:red_heart"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -30,7 +30,7 @@ repositories {
     }
 }
 
-version = '1.16.4-1.0.0'
+version = '1.16.4-1.0.1'
 group = 'com.lousydev.simplecanisters' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'SimpleCanisters'
 

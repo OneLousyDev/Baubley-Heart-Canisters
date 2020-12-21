@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon":{
+      "item":"simplecanisters:orange_heart"
+    },
+    "title":{
+      "translate":"advancements.simplecanisters.orange_heart"
+    },
+    "description":{
+      "translate": "advancements.simplecanisters.orange_heart.description"
+    }
+  },
+  "parent": "simplecanisters:main/root",
+  "criteria":{
+    "orange_heart_in_inventory":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item": "simplecanisters:orange_heart"
+          }
+        ]
+      }
+    }
+  }
+}

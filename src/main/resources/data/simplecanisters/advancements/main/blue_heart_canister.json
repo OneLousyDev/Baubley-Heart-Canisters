@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon":{
+      "item":"simplecanisters:blue_heart_canister"
+    },
+    "title":{
+      "translate":"advancements.simplecanisters.blue_heart_canister"
+    },
+    "description":{
+      "translate": "advancements.simplecanisters.blue_heart_canister.description"
+    }
+  },
+  "parent": "simplecanisters:main/blue_heart",
+  "criteria":{
+    "blue_heart_canister_in_inventory":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item": "simplecanisters:blue_heart_canister"
+          }
+        ]
+      }
+    }
+  }
+}

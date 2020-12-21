@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon":{
+      "item":"simplecanisters:green_heart_canister"
+    },
+    "title":{
+      "translate":"advancements.simplecanisters.green_heart_canister"
+    },
+    "description":{
+      "translate": "advancements.simplecanisters.green_heart_canister.description"
+    }
+  },
+  "parent": "simplecanisters:main/green_heart",
+  "criteria":{
+    "green_heart_canister_in_inventory":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item": "simplecanisters:green_heart_canister"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -8,6 +8,6 @@ public class GreenHeartCanister extends BaseHeartCanister
 {
     public GreenHeartCanister()
     {
-        super(HeartType.GREEN, BaubleType.AMULET);
+        super(HeartType.GREEN, BaubleType.CHARM);
     }
 }

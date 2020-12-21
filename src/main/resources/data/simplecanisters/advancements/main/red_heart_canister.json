@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon":{
+      "item":"simplecanisters:red_heart_canister"
+    },
+    "title":{
+      "translate":"advancements.simplecanisters.red_heart_canister"
+    },
+    "description":{
+      "translate": "advancements.simplecanisters.red_heart_canister.description"
+    }
+  },
+  "parent": "simplecanisters:main/relic_apple",
+  "criteria":{
+    "red_heart_canister_in_inventory":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item": "simplecanisters:red_heart_canister"
+          }
+        ]
+      }
+    }
+  }
+}

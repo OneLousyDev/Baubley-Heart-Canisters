@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon":{
+      "item":"simplecanisters:heart_amulet"
+    },
+    "title":{
+      "translate":"advancements.simplecanisters.heart_amulet"
+    },
+    "description":{
+      "translate": "advancements.simplecanisters.heart_amulet.description"
+    }
+  },
+  "parent": "simplecanisters:main/blue_heart_canister",
+  "criteria":{
+    "heart_amulet_in_inventory":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "item": "simplecanisters:heart_amulet"
+          }
+        ]
+      }
+    }
+  }
+}
